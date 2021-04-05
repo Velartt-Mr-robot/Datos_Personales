@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Confirmar_Datos">
+
+    <TextView
+        android:id="@+id/txt_Cofirmar"
+        android:layout_width="307dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="44dp"
+        android:fontFamily="monospace"
+        android:text="@string/txt_conf"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.451"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/conf_nombre"
+        android:layout_width="302dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="monospace"
+        android:text="TextView"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_Cofirmar" />
+
+    <TextView
+        android:id="@+id/conf_fecha"
+        android:layout_width="298dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="monospace"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/conf_nombre" />
+
+    <TextView
+        android:id="@+id/conf_tel"
+        android:layout_width="298dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="monospace"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/conf_fecha" />
+
+    <TextView
+        android:id="@+id/conf_email"
+        android:layout_width="296dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="monospace"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/conf_tel" />
+
+    <TextView
+        android:id="@+id/conf_descr"
+        android:layout_width="294dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="monospace"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/conf_email" />
+
+    <Button
+        android:id="@+id/but_edit"
+        android:layout_width="159dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="44dp"
+        android:fontFamily="monospace"
+        android:onClick="Editar"
+        android:text="@string/but_edit_"
+        android:theme="@style/CCC"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/conf_descr" />
+</androidx.constraintlayout.widget.ConstraintLayout>

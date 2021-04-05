@@ -1,0 +1,26 @@
+<resources>
+
+    <string name="app_name">Datos_Personales</string>
+    <string name="txt_Nombre">Nombre Completo</string>
+    <string name="txt_Tel">Télefono</string>
+    <string name="txt_Email">Email</string>
+    <string name="txt_Descr">Descripción de Contacto</string>
+    <string name="txt_Fecha">Fecha de Nacimiento</string>
+    <string name="Boton">SIGUIENTE</string>
+    <string name="txt_view">LISTA DE CONTACTOS</string>
+    <string name="but_cal">Boton Calendario</string>
+
+    -------------------------------------------------------
+
+    <string name="txt_conf">CONFIRMACIÓN DE DATOS</string>
+    <string name="conf_nomb">Email</string>
+    <string name="conf_fecha">Descripción de Contacto</string>
+    <string name="conf_tel">Fecha de Nacimiento</string>
+    <string name="conf_email">SIGUIENTE</string>
+    <string name="conf_descr">LISTA DE CONTACTOS</string>
+    <string name="but_edit_">EDITAR DATOS</string>
+
+
+
+
+</resources>
